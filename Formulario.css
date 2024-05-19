@@ -1,81 +1,99 @@
 *{
-  margin: 0;
-  padding: 0;
-}
-#titulo{
-  font-family:sans-serif;
-  color:DarkSlateGray;
-  margin-left: 30;
-  
-}
-#subtitulo{
-  font-family:sans-serif;
-  color:DarkSlateGray;
-  margin-left: 0%;
-}
-fieldset{
-  border:0
-}
-body{
-  background-color:CadetBlue;
-  font-family:sans serif;
-  font-size:1em;
-  color:black;
-  margin-left:41%;
-  margin-top:3%;
-  justify-contend:center;  
-}
-input,selec,textera,bottom{
-  border-radius:6px;
-  
-}
-.compo{
-  margin-bottom:1em;
-}
-.campo label{
-  margin-bottom:1em;
-  color:DarkSlateGray;
-  display:block;  
-}
-fieldset.gupo.campo{
-  float:left;
-  margin-right:1em;   
-}
-.campo input[type="email"], .campo selec,.campo textarea{
-  padding:0.2;
-  border:1px solide LightPink; 
-  box-shadow: 2px 2px 2px LightPink (0,0,0.2); 
-}
-.campo select option{
-  padding-right:1em;
-}
-.campo input:focus,.campo select:focus, .campo textare:focus{
-  background:LightPink;
-}
-.botao{
-  font-size:1.2em;
-  background:DarkCyan;
-  border: 2;
-  margin-bottom:1em;
-  color:black;
-  padding: 0.2em 0.6em;
-  box-shadow:0px 8px 10px 5px Turquoise;
-  text-shadow:2px 2px 2px (0,0,0.5);
-  position: absolute;
-  top:90%;
-  left: 47%;
-  margin-right:-50%;
-  transform: translate(-50%, -50%);
-  border-radius:6px;
-}     
-.botao:houver{
-  background:Turquoise;
-  box-shadow:2px 2px 2px Turquoise 0,0,0.2;
-  text-shadow:none;
-}
-.imagem{
-  font-size: 10em;
-  margin-left: 60%
-}    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  #titulo{
+    font-family:"poppins"sans-serif;
+    color:rgb(235, 238, 238);
+    margin-left: 33%;
+    text-shadow: 3px 3px rgb(83, 110, 110);
     
+  }
+  #subtitulo{
+    font-family:sans-serif;
+    color:rgb(226, 238, 238);
+    margin-left: 33%;
     
+  }
+  fieldset{
+    border: 0;
+  }
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(30, 59, 61);
+   
+
+  
+    
+  }
+  .container{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    color: white; 
+    background: rgb(91, 146, 160);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:30px ;
+    box-shadow:0px 8px 10px 5px rgb(21, 29, 28);
+  }
+  
+
+  input,selec,textera,bottom{
+    border-radius:6px;
+    
+  }
+  .compo{
+    margin-bottom:1em;
+  }
+  .campo label{
+    margin-bottom:0.2em;
+    color:rgb(236, 236, 236);
+    display:block;  
+  }
+  fieldset.gupo.campo{
+    float:left;
+    margin-right:1em;   
+  }
+  .campo input[type="email"], .campo selec,.campo textarea{
+    padding:0.2;
+    border:1px solide rgb(247, 247, 247); 
+    box-shadow: 2px 2px 2px rgb(243, 238, 238) (0,0,0.2); 
+  }
+  .campo select option{
+    padding-right:1em;
+  }
+  .campo input:focus,.campo select:focus, .campo textare:focus{
+    background:rgb(255, 252, 252);
+  }
+  .botao{
+    font-size:1.2em;
+    background:rgb(91, 146, 160);
+    border: 2;
+    margin-bottom:1em;
+    color:rgb(30, 59, 61);
+    padding: 0.2em 10em;
+    box-shadow:0px 8px 10px 5px rgb(21, 29, 28);
+    text-shadow:2px 2px 2px (0,0,0.5);
+    position: absolute;
+    top:105%;
+    left: 50%;
+    margin-right:-50%;
+    transform: translate(-50%, -50%);
+    border-radius:10px;
+    cursor: pointer;
+  }
+  
+  .botao:houver{
+    background:Turquoise;
+    box-shadow:2px 2px 2px Turquoise 0,0,0.2;
+    text-shadow:none;
+  }
+      
+      
+      
